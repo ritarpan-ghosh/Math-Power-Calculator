@@ -7,7 +7,7 @@ if __name__ == "__main__":
     power = int(input("Enter the power number: "))
 
     ans = powerCal(num, power)
-    print(f"{num} to the power {power} is {ans}")
+    print(f"{num} to the power {power} = {ans}")
 
     quit = input("Please, Type 'q' to quit: ")
     if quit=='q':
